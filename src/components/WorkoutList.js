@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addToWorkoutListAction } from '../actions';
 import WorkoutView from './WorkoutView';
 
 class WorkoutList extends Component {
