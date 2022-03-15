@@ -1,9 +1,13 @@
 import { combineReducers } from "redux";
+import addToWorkoutListReducer from "./addToWorkoutListReducer";
+import createWorkoutReducer from "./createWorkoutReducer";
+import displayMapReducer from "./displayMapReducer";
+import openWorkoutFormReducer from "./openWorkoutFormReducer";
 
-const fakeReducer = (state, action) => {
-    return '123';
-};
 
 export default combineReducers({
-    fake: fakeReducer
+    workoutFormEvent: openWorkoutFormReducer,
+    mapDisplay: displayMapReducer,
+    createdWorkout: createWorkoutReducer,
+    workoutList: addToWorkoutListReducer
 });

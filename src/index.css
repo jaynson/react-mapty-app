@@ -20,7 +20,7 @@
     box-sizing: border-box;
   }
   
-  body {
+  #root {
     font-family: 'Manrope', sans-serif;
     color: var(--color-light--2);
     font-weight: 400;
@@ -33,6 +33,7 @@
   
     display: flex;
   }
+
   
   /* GENERAL */
   a:link,
@@ -87,7 +88,7 @@
   .workout__title {
     font-size: 1.7rem;
     font-weight: 600;
-    grid-column: 1 / -2;
+    grid-column: 1 / -1;
   }
   
   .workout__details {
